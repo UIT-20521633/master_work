@@ -1,5 +1,12 @@
-# bc60_portfolio
+# Capstone Project - MasterWork
 
-My name is Minh
+This is a project done by Flash Team.
 
-abcd
+List of programers:
+- Chu Thi Ngoc Bich
+- Nguyen Tan Phuong Nam
+- Dang Phuc Minh
+
+Function:
+- Display the HomePage template
+- Change the Black and White interface
