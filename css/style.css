@@ -406,7 +406,7 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
 
 /* Code by Nam  */
 /* About   */
-.title {
+#NamNguyen .title {
   color: #dc4f72;
   font-size: 16px;
   line-height: 20px;
@@ -416,13 +416,13 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   margin-bottom: 5px;
 }
 
-.about_title h3 {
+#NamNguyen .about_title h3 {
   font-size: 35px;
   font-weight: 700;
   line-height: 40px;
 }
 
-.btn-danger {
+#NamNguyen .btn-danger {
   background-color: #dc4f72;
   font-size: 14px;
   font-weight: 700;
@@ -433,13 +433,13 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   color: #fff;
 }
 
-.btn-danger:hover {
+#NamNguyen .btn-danger:hover {
   color: #fff;
   background-color: #d62f58;
   border-color: #cf2952;
 }
 
-.about_img {
+#NamNguyen .about_img {
   padding-left: 3rem;
 }
 
@@ -452,24 +452,24 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
 
 }
 
-.t_img {
+#NamNguyen .t_img {
   width: 100%;
   height: auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transition: all 0.3s;
 }
 
-.t_img:hover {
+#NamNguyen .t_img:hover {
   transform: translateY(-0.5rem);
   transition: all 0.3s;
 }
 
-.bg-white-line {
+#NamNguyen .bg-white-line {
   background-color: #f7f9fc;
 }
 
 /* Number */
-.static_title {
+#NamNguyen .static_title {
   background-color: #fff;
   padding: 2rem;
   border-radius: 7px;
@@ -477,14 +477,14 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   box-shadow: 1px 5px 8px rgba(14, 13, 13, 0.2);
 }
 
-.static_title h4 {
+#NamNguyen .static_title h4 {
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
   margin: 0;
 }
 
-.static_title .counter {
+#NamNguyen .static_title .counter {
   color: #dc4f72;
   font-size: 50px;
   font-weight: 700;
@@ -492,7 +492,7 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   line-height: 1;
 }
 
-.static_title p {
+#NamNguyen .static_title p {
   margin: 0;
   font-size: 15.8px;
   font-weight: 400;
@@ -500,7 +500,7 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
 }
 
 /* Weare */
-.bground {
+#NamNguyen .bground {
   background: linear-gradient(to right, rgb(32 30 30 / 82%), rgb(0 0 0 / 28%)),
     url(../img/cover.jpg);
   min-height: 480px;
@@ -514,7 +514,7 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   display: grid;
 }
 
-.weare .bground .btn-light {
+#NamNguyen .weare .bground .btn-light {
   color: black;
   background-color: white;
   border: 1px solid white;
@@ -627,25 +627,25 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   top: 16px;
 }
 
-.card {
+#NamNguyen .card {
   margin-bottom: 16px;
   border-radius: 6px;
 }
 
-.card-header {
+#NamNguyen .card-header {
   background-color: white;
   border-bottom: none;
   padding: 1rem 1rem 1rem 1rem;
 }
 
-.btn {
+#NamNguyen .btn {
   font-size: 20px;
   font-weight: normal;
   padding: 0;
   color: #2c3038;
 }
 
-.card-body {
+#NamNguyen .card-body {
   padding: 0 1.25rem 1.65rem 1.25rem;
   font-size: 16px;
   max-height: 800px;
@@ -653,7 +653,7 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   color: #5a5a5a;
 }
 
-.icon {
+#NamNguyen .icon {
   font-size: 15px;
   font-weight: 900;
   position: absolute;
@@ -661,7 +661,7 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
   top: 30px;
 }
 
-.btn .fa-angle-up {
+#NamNguyen .btn .fa-angle-up {
   display: none;
 }
 
@@ -683,4 +683,177 @@ header .btn-outline-success:hover, .carousel__MW .btn-outline-success:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Code by Minh  */
+#Jeremy h3 {
+  color: #2c3038;
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#Jeremy .sub-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#Jeremy .sub-txt {
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: 22.5px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 728px;
+}
+
+/* Feauture - Jeremy */
+#Jeremy .featured__horizontalParent {
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+
+.featured__horizontal #nav-tab {
+  justify-content: space-around;
+
+}
+
+.featured__horizontal #nav-tab a {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  /* color: #2c3038; */
+  float: left;
+  width: 33.333%;
+  text-align: center;
+  border-color: transparent;
+}
+
+.featured__horizontal .nav-link.active{
+  color: #dc4f72;
+}
+
+.featured__horizontal #nav-tabContent {
+  margin-top: 30px;
+}
+
+.featured__horizontal h3 {
+  color:#2C3038 ;
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+#Jeremy .nav-tabContent .nav__title{
+  color: black;
+}
+
+/* Footer  */
+footer h3 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #2c3038;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+  margin: 10px 0;
+}
+
+footer ul li a {
+  color: #656f7b;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+footer h4 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #2c3038;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.footer__right {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 6px;
+  box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+}
+
+.footer__rightInline {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.footer__rightForm {
+  width: 72%;
+}
+
+.footer__rightInline input {
+  background: #F7F9FC;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  color: #2C3038;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.footer__rightInline button {
+  text-align: center;
+  background: #dc4f72;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 20%;
+  height: 100%;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.FooterSocial p {
+  line-height: 22px;
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+.FooterSocial p a {
+  color: #2C3038;
+}
+
+.FooterSocial ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.FooterSocial ul li a {
+  color: #2c3038;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
 }
