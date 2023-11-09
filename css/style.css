@@ -7,7 +7,7 @@
 
 html,
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 header {
@@ -17,11 +17,10 @@ header {
   background-color: #fff;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
   padding: 30px;
-
 }
 
 .container {
-  max-width: 1500px;
+  /* max-width: 1500px; */
   padding: 0 30px;
 }
 
@@ -40,20 +39,12 @@ header {
   background-color: #fff;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
   padding: 30px;
-
-}
-
-.container {
-  max-width: 1500px;
-  padding: 0 30px;
 }
 
 header .navbar .navbar-brand {
   font-size: 2rem;
   color: #dc4f72;
   font-weight: 700;
-
-
 }
 
 #navbarMaster .nav-item.active .nav-link {
@@ -78,7 +69,6 @@ header .navbar .navbar-brand {
   background-color: #dc4f72;
   display: block;
   transition: all 0.5s;
-
 }
 
 #navbarMaster .nav-item:hover .nav-link::after {
@@ -143,7 +133,8 @@ header .btn-outline-success:hover,
 /* carousel */
 .carousel__MW {
   /* background-image: url(./../img/banner.jpg); */
-  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(./../img/banner.jpg);
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)),
+    url(./../img/banner.jpg);
   background-position: center;
   background-size: cover;
   background-color: white;
@@ -218,7 +209,6 @@ header .btn-outline-success:hover,
   padding: 3rem 2rem;
   transform: translateY(0);
   transition: all 0.5s;
-
 }
 
 .services .s-block:hover {
@@ -226,18 +216,15 @@ header .btn-outline-success:hover,
   background: #fff;
   border: 1px solid #f8f9fa;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
 
 .services .s-block a {
   text-decoration: none;
-
 }
 
 .services .s-block img {
   width: 5.5rem;
 }
-
 
 /* Code by NamNguyen  */
 @media screen and (max-width: 900px) {
@@ -293,7 +280,7 @@ header .btn-outline-success:hover,
   transform: translateY(-0.5rem);
   transition: all 0.3s;
 }
-#NamNguyen  .bg-white-line {
+#NamNguyen .bg-white-line {
   background-color: #f7f9fc;
 }
 /* Number */
@@ -324,7 +311,7 @@ header .btn-outline-success:hover,
   color: #5a5a5a;
 }
 /* Weare */
- .bground {
+.bground {
   background: linear-gradient(to right, rgb(32 30 30 / 82%), rgb(0 0 0 / 28%)),
     url(../img/cover.jpg);
   min-height: 480px;
@@ -483,8 +470,6 @@ header .btn-outline-success:hover,
   }
 }
 
-
-
 /* Code by Minh  */
 #Jeremy h3 {
   color: #2c3038;
@@ -521,7 +506,6 @@ header .btn-outline-success:hover,
 
 .featured__horizontal #nav-tab {
   justify-content: space-around;
-
 }
 
 .featured__horizontal #nav-tab a {
@@ -546,7 +530,7 @@ header .btn-outline-success:hover,
 }
 
 .featured__horizontal h3 {
-  color: #2C3038;
+  color: #2c3038;
   margin-bottom: 16px;
   font-size: 30px;
   line-height: 36px;
@@ -607,13 +591,13 @@ footer h4 {
 }
 
 .footer__rightInline input {
-  background: #F7F9FC;
+  background: #f7f9fc;
   border: none;
   padding: 12px 20px;
   font-size: 16px;
   outline: none;
   width: 100%;
-  color: #2C3038;
+  color: #2c3038;
   font-weight: 600;
   border-radius: 6px;
 }
@@ -640,7 +624,7 @@ footer h4 {
 }
 
 .FooterSocial p a {
-  color: #2C3038;
+  color: #2c3038;
 }
 
 .FooterSocial ul li {
